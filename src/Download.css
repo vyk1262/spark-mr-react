@@ -1,0 +1,82 @@
+.Download {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Download-header {
+    background-color: #2F455C;
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+  }
+  
+  .Download-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F455C;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .Download-content {
+    margin: 20px 0;
+  }
+  
+  .question-button,
+  .download-button,
+  .back-button {
+    padding: 10px 20px;
+    background-color: #2F455C;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .file-dropdown select {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    background-color: #2F455C;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .toggle-button.selected {
+    background-color: #4A6B8A;
+  }
+  
+  .text-output {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
+  .Download-footer {
+    background-color: #2F455C;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  

@@ -1,0 +1,75 @@
+.Translate {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Translate-header {
+  background-color: #2F455C;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.Translate-navbar {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.Translate-body {
+  flex: 1;
+  padding: 20px;
+  margin-top: 80px; /* height of the header */
+  margin-bottom: 60px; /* height of the footer */
+  overflow-y: auto;
+}
+
+.Translate-content {
+  margin: 20px 0;
+}
+
+.Translate-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Translate-actions button {
+  padding: 10px 20px;
+  background-color: #2F455C;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.Translate-actions .refresh-button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.Translate-file-status {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.Translate-footer {
+  background-color: #2F455C;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}

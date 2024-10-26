@@ -1,0 +1,117 @@
+.Question {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .Question-header {
+    background-color: #2F455C;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .Question-body {
+    flex: 1;
+    padding: 20px;
+    margin-top: 80px; /* height of the header */
+    margin-bottom: 60px; /* height of the footer */
+    overflow-y: auto;
+  }
+  
+  .file-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .file-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .file-info input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .load-documents {
+    font-size: 14px;
+  }
+  
+  .question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .question-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .question-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .question-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .question-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .answers-section {
+    margin-bottom: 20px;
+  }
+  
+  .answer {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .Question-footer {
+    background-color: #2F455C;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
